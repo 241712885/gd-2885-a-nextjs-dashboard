@@ -76,3 +76,10 @@ export type FormattedCustomersTable = {
   total_pending: string;
   total_paid: string;
 };
+
+export type User = {
+  id: string;
+  name: string;
+  email: string;
+  password: string;
+};
